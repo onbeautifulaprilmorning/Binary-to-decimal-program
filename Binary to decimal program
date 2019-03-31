@@ -1,0 +1,6 @@
+def BinToDe(x):
+  _tmp = x[::-1]
+  total = 0
+  for i in range(len(x)):
+    total += _tmp[i] * 2**i
+  return total
